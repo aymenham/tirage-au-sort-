@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQLI cadeau</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="modal-container">
+      <div class="modal-background">
+        <div class="modal">
+          <h2>Félicitations vous avez gagné un(e)</h2>
+          <p id="gift-text"></p>
+          <svg
+            class="modal-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="100%"
+            height="100%"
+            preserveAspectRatio="none"
+          >
+            <rect
+              x="0"
+              y="0"
+              fill="none"
+              width="226"
+              height="162"
+              rx="3"
+              ry="3"
+            ></rect>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div id="start-modal" class="start-modal">
+      <div class="start-modal-content">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SQLI_DX_LOGO_violet.png/280px-SQLI_DX_LOGO_violet.png"
+          alt=""
+          srcset=""
+        />
+        <div class="balloons">
+          <div class="start-balloon"></div>
+          <div class="start-balloon"></div>
+          <div class="start-balloon"></div>
+          <div class="start-balloon"></div>
+          <div class="start-balloon"></div>
+        </div>
+        <div class="start"></div>
+
+        <h3>Fait pas trop confiance aux ballons et bonne chance</h3>
+        <div class="start-button">Débuter</div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
