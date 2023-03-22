@@ -188,10 +188,13 @@ body {
   }
 
   .makeappear{
+    border: 5px solid white;
+    background: #24312C;
+    padding: 0.5rem;
     z-index: 200;
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 21, 21);
+    color:white;
     animation: appear .6s forwards;
   }
 

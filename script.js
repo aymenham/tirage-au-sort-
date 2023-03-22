@@ -84,10 +84,9 @@ const createBallon = (value) => {
   addStyleToDiv(particle6, ballonColor);
 
   const messageInside = document.createElement("div");
-  console.log("gkr,k");
   messageInside.classList.add("gift-text");
   messageInside.setAttribute("id", "messageInside" + value);
-  messageInside.textContent = "Félicitation vous avez gagné " + gift;
+  messageInside.textContent = "Félicitation vous avez gagné un(e) " + gift;
   messageInside.style.opacity = 0;
 
   balloonContainer.appendChild(balloon);
